@@ -1,0 +1,18 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+#1、git --bare init --shared
+#2、git remote add "usb" H:/code_repo/dcshop
+#3、git push usb master
+
+.idea
+.vscode
+*.iml
+out
+gen
+.mk
+node_modules
+target
+
