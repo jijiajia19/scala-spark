@@ -1,18 +1,63 @@
-# Created by .ignore support plugin (hsz.mobi)
-### Example user template template
-### Example user template
+#eclipse and normal
+*.db
+*.swp
+.classpath
+.gradle/
+.project
+.settings/
+/bin
+bin/
+build/
+.DS_Store
+.bundle/
+Gemfile.lock
+vendor/
+**/velocity.log
+docs/_build/
+.classpath.log
+pom.xml.versionsBackup
+executor.port
+gradle-app.setting
+.gradletasknamecache
 
-# IntelliJ project files
-#1、git --bare init --shared
-#2、git remote add "usb" H:/code_repo/dcshop
-#3、git push usb master
+# local & temp directories are ignored so that they can be used to store temporary files such as local testing configurations.
+local/
+temp/
+conf/
+projects/
+LOCAL_STORAGE/
 
+# Intellij files
+target/
+*.log
 .idea
-.vscode
 *.iml
-out
-gen
-.mk
-node_modules
-target
+*.ipr
+*.iws
+.ideaDataSources/
+.shelf
+# Intellij default build output directory
+out/
+currentpid
 
+# direnv files see https://github.com/direnv/direnv
+.envrc
+.direnv/
+
+# pytest
+.pytest_cache/
+
+#python
+__pycache__/
+
+#test artifacts
+LOCAL_STORAGE/
+
+
+#nodejs
+node_modules/
+
+# others
+.svn/
+rebel.xml
+.rebel-remote.xml.*
